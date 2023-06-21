@@ -1,0 +1,13 @@
+<!DOCTYPE library SYSTEM "example.dtd">
+<library>
+  <book>
+    <title>Book 1</title>
+    <author>Author 1</author>
+    <year>2022</year>
+  </book>
+  <book>
+    <title>Book 2</title>
+    <author>Author 2</author>
+    <year>2023</year>
+  </book>
+</library>
