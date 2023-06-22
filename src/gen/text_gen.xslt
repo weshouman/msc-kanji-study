@@ -8,7 +8,7 @@
   
   <xsl:template match="library">
     <xsl:for-each select="book">
-      <xsl:value-of select="concat('Library ', position(), ' has book ', position())"/>
+      <xsl:value-of select="concat(position(), ': Book &quot;', title, '&quot; authored by ', author, ' on ', year)"/>
       <xsl:text>&#xa;</xsl:text>
     </xsl:for-each>
   </xsl:template>

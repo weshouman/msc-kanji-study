@@ -27,20 +27,23 @@ def generate_txt(data_fn, xsl_fn, out_fn):
   transform = ET.XSLT(xslt)
   txt_output = str(transform(dom))
 
-  # html_output_enc = ET.tostring(newdom, pretty_print=True)
-  # html_output = html_output_enc.decode("utf-8")
-
   write_text(out_fn, txt_output)
 
   return txt_output
 
 def main():
+  data_fn = os.path.join(data_dir, "kanjidic2.xml")
+
+  xsl_fn = os.path.join(gen_dir, "kanjidic.xslt")
+  out_fn = os.path.join(out_dir, "kanji.html")
+  # out = generate_html(data_fn, xsl_fn, out_fn)
+
   data_fn = os.path.join(data_dir, "example.xml")
 
   xsl_fn = os.path.join(gen_dir, "example.xslt")
   out_fn = os.path.join(out_dir, "output.html")
   out = generate_html(data_fn, xsl_fn, out_fn)
-  print(out)
+  # print(out)
 
   xsl_fn = os.path.join(gen_dir, "text_gen.xslt")
   out_fn = os.path.join(out_dir, "output.txt")
