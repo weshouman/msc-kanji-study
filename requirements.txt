@@ -1,1 +1,11 @@
+certifi==2023.5.7
+interchange==2021.0.4
 lxml==4.9.2
+monotonic==1.6
+packaging==23.1
+pansi==2020.7.3
+py2neo==2021.2.3
+Pygments==2.15.1
+pytz==2023.3
+six==1.16.0
+urllib3==2.0.3
