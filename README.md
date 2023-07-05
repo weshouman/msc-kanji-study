@@ -1,7 +1,9 @@
 # Kanji Study Assistant
 Build visualization forms to assist in studying the kanjis and how do they relate (including Graph DB, HTML and even txt).
 
-![overview](docs/media/nodes.png) { style="width: 200px"}
+<p align="center">
+<img src="docs/media/nodes.png" width="400">
+</p>
 
 Steps that the projects follow
 - Setup Neo4j
