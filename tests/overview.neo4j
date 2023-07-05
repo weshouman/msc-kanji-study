@@ -1,0 +1,3 @@
+MATCH (n:Kanji) RETURN n LIMIT 5;
+MATCH (n:Radical) RETURN n LIMIT 5;
+MATCH (n:Grade) RETURN n LIMIT 5
